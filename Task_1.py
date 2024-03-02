@@ -51,7 +51,7 @@ def retrieve_database():
   
 if __name__ == "__main__":  
     guiWindow = tk.Tk()  
-    guiWindow.title("To-Do List Manager - ARSHAD")  
+    guiWindow.title("To-Do List Manager - Rishav")  
     guiWindow.geometry("500x450+750+250")  
     guiWindow.resizable(0, 0)  
     guiWindow.configure(bg = "#FAEBD7")  
@@ -75,7 +75,7 @@ if __name__ == "__main__":
         header_frame,  
         text = "To-Do List",  
         font = ("Alice", "30", "bold"),
-        background = "dark orange",  
+        background = "Black",  
         foreground = "#FFFFFF"  
     )  
     header_label.pack(padx = 10, pady = 10)  
@@ -84,7 +84,7 @@ if __name__ == "__main__":
         functions_frame,  
         text = "Enter the Task:",  
         font = ("Alice", "11", "bold"),  
-        background = "dark orange",  
+        background = "Black",  
         foreground = "#FFFFFF"  
     )  
     task_label.place(x = 30, y = 40)  
